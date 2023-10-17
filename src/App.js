@@ -33,9 +33,11 @@ function App() {
 
 
 {/* 
+hello
 
 Navbar R
 Hero/home R
+
 about wie T
 about IEEEdtu T
 wie Events T
@@ -43,7 +45,7 @@ wie Events T
 // tues night
 council // image
 timeline
-contact us // hold
+contact us
 footer 
 */}
 
