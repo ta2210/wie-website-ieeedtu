@@ -1,27 +1,25 @@
-import React from 'react'
-import aboutimg from "../Assets/aboutimg.jpeg"
+import aboutimg from "../Assets/grpimg2.jpeg"
 const IEEEdtu = () => {
     return (
         <>
-            <div className='about-section '>
-                <div className='about-section-sub pb-[10px]'>
+            <div className='about-section2 '>
+                <div className='about-section-sub2 pb-[10px]'>
                     <div className='headings text-white'>
-                        <p className='text-[rgb(253,246,249)]'>About Us</p>
+                        <p className='text-[rgb(5,12,89)]'>IEEE DTU</p>
                     </div>
                     <div className='about-flex'>
-
-                        <div className='about-content'>
-                            <p className='hcontentsub text-[rgb(253,246,249)]'>
-                                Within the formidable IEEE DTU society, IEEE Women in Engineering (WIE) serves as a dedicated subpart committed to advancing women in STEM fields. The vision it holds is that of a vibrant community of women and men collectively using their diverse talents for humanity. This global network of IEEE members and volunteers inspires young girls and promotes women engineers, actively working to foster gender diversity. In India, the IEEE DTU WIE Chapter, an integral part of this society, passionately supports the formation of new IEEE WIE Affinity Groups, acknowledges the exceptional achievements of women in electrical and electronics engineering, and organizes workshops at major technical conferences. By enhancing networking opportunities and advocating for IEEE WIE membership, it strives to lead the way in promoting gender inclusion within the fields of engineering and science.
-                            </p>
-                        </div>
-                        <div className='about-img'>
+                        <div className='about-img2'>
                             <div className='aboutimgsub relative'>
                                 <img src={aboutimg} alt="aboutwieimg" className='' />
-                                {/* <img src={} className=''/> */}
                             </div>
                         </div>
+                        <div className='about-content2'>
+                            <p className='hcontentsub text-black'>
+                                The IEEE (Institute of Electrical and Electronics Engineers) is a leading global professional society dedicated to advancing technology and making students aware of the latest technological developments. It achieves this mission through a multifaceted approach. First, IEEE produces an extensive array of technical publications, including journals, magazines, and conference proceedings, which offer in-depth insights into cutting-edge technologies. Second, the organization hosts numerous conferences, workshops, and webinars where students can participate, present their research, and learn from experts in their fields. Additionally, many universities have IEEE student branches that actively organize events and provide networking opportunities. IEEE's digital library, IEEE Xplore, serves as a valuable resource for students, granting access to research papers, standards, and conference proceedings. Students can also join IEEE's technical committees, participate in student competitions, engage in STEM outreach programs, and network with professionals, all of which collectively contribute to their awareness and understanding of new technologies. In essence, IEEE plays a pivotal role in fostering tech-savviness and innovation among students, enabling them to stay at the forefront of the ever-evolving tech landscape.
+                            </p>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </>

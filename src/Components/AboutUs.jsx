@@ -4,7 +4,7 @@ const AboutUs = () => {
     return (
         <>
             <div className='about-section '>
-                <div className='about-section-sub pb-[10px]'>
+                <div className='about-section-sub pb-[10px] pt-[10px]'>
                     <div className='headings text-white'>
                         <p className='text-[rgb(253,246,249)]'>About Us</p>
                     </div>
