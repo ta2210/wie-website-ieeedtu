@@ -9,14 +9,13 @@
     margin: 10px;
     padding: 0%;
 }
-
 .con-class2b {
     background-color: rgb(253,246,249);
     padding: 20px
 }
 
 .con-class3 {
-    border-right: black solid;
+    border-right: rgb(5, 12, 89) solid;
 }
 
 .con-class4 {
@@ -75,19 +74,6 @@
     color: rgb(5, 12, 89);
 }
 
-@media only screen and (max-width: 600px) {
-    .display-1 {
-        /* font-size: 5rem; */
-    }
-
-    .display-2 {
-        /* font-size: 3.3rem; */
-    }
-
-    .subhead {
-        /* font-size: 1.5rem; */
-    }
-}
 
 .grid-container_3 {
     display: grid;
@@ -129,7 +115,7 @@
     border-radius:10px;
     padding-right:20px;
     padding-left:20px;
-    height:100vh;
+    height:80%;
 }
 @media screen and (max-width:1030px){
     .grid-container_5{
@@ -183,6 +169,9 @@
         font-size:14.55px;
         padding-left:10px;
         padding-right:10px
+    }
+    .con-class3 {
+        border-right: none;
     }
 }
 @media screen and (max-width:430px){

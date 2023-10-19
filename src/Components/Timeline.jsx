@@ -21,6 +21,7 @@ const ExperienceCard = ({ timeline }) => {
         // border:"1px solid rgb(223, 138, 244)"
       }}
       date={timeline.date}
+      dateClassName={ "text-[rgb(110,43,127)]" }
       contentArrowStyle={{ borderRight: "7px solid rgb(5,12,189)" }}
       iconStyle={{ background: timeline.icon, backgroundColor:"rgba(5,12,89)" }}
       icon={
@@ -65,7 +66,7 @@ const Experience = () => {
         <h2 className={`${styles.sectionSubText} experiencep-01 text-[rgba(5,12,89,0.8)] text-center`} id="experience">
           WIE Opportunities
         </h2>
-        <h3 className={`${styles.sectionHeadText} text-[rgb(5,12,89)] experiencep-02 text-center`}>
+        <h3 className={`${styles.sectionHeadText} experiencep-02 text-center`}>
           Timeline
         </h3>
       </motion.div>

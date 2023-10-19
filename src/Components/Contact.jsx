@@ -3,7 +3,7 @@ import "../style/contact.css"
 const Contact = () => {
   return (
     <>
-    {/* <section className='con-class2b'>
+      {/* <section className='con-class2b'>
 
     </section> */}
       <section className="form con-class2b">
@@ -11,17 +11,26 @@ const Contact = () => {
         <div className="grid-container_5">
           <div className="grid-item_5 con-class3">
             <div className="py-2">
-              <span className="con-class1">Be Part of the IEEE-DTU Family</span>
-              <h3 className="con-class2">Join Now</h3>
+              <span className="con-class1 headings-ben">Be Part of the IEEE-DTU Family</span>
+              <h3 className="con-class2">
+                <b>
+                  Join Now
+                </b>
+              </h3>
               <br />
             </div>
-            <iframe  src="https://forms.gle/u164tfiTynR6oChs9" className='iframe-class'  width="450" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+            <iframe src="https://forms.gle/u164tfiTynR6oChs9" className='iframe-class' width="450" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
           </div>
           <div className="grid-item_5">
             <div className="row section-header has-bottom-sep aos-init aos-animate" data-aos="fade-up">
               <div className="col-full">
-                <h5 className="subhead subhead--dark con-class4 text-[rgb(5,12,89)]" >Benefits</h5>
-                <h4 className="display-1 display-1--light con-class5">OF JOINING IEEE DTU</h4>
+                <h5 className="con-class4 headings-ben ml-[0px]" >Benefits</h5>
+                <h4 className="display-1 display-1--light con-class5">
+                  <b>
+
+                    OF JOINING IEEE DTU
+                  </b>
+                </h4>
               </div>
             </div>
             <p className='con-class6'>

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 .p{
   color:rgb(5,12,89); 
   color:rgb(253,246,249);
@@ -537,9 +537,15 @@ body{
 }
 .about-section{
   position: relative;
-  margin-left: 20px;
+  background-color: rgba(5,12,89,0.8);
+  background: url("./Assets/aboutimg.jpeg");
+  /* margin-left: 20px; */
+  color:white;
   /* background-color: pink; */
-  margin-right:20px;
+  /* margin-right:20px; */
+}
+.about-section-sub{
+  background-color: rgba(5,12,89,0.8);
 }
 .heading{
   font-size: 40px;
@@ -553,4 +559,80 @@ body{
 }
 .whitef{
   color:black;
+}
+.headings{
+  font-size: 40px;
+  margin-left:20px;
+  color:rgb(5,12,89); 
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: "Arvo";
+}
+.headings-ben{
+  font-size: 40px;
+  color:rgb(5,12,89); 
+  font-weight: 700;
+  font-family: "Arvo";
+}
+.about-content{
+  color:black;
+  margin-left:30px;
+  text-align: justify;
+  width: 94%;
+  grid-column: 1/ span 3;
+  /* margin-right:16px; */
+  /* background-color: pink; */
+  font-size: 17px;
+}
+.about-flex{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  gap:10px;
+  margin:0;
+  /* background-color: orange; */
+}
+.about-img{
+
+  grid-column: 5/ span 3;
+  margin-right:1%;
+  /* background-color: red; */
+  overflow: visible;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 10px;
+  
+}
+.about-img img{
+  /* padding-top:5%; */
+  width:100%;
+  border-radius: 5px;
+}
+@media screen and (max-width:1100px) {
+  .about-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-img{
+    margin-left:30px;
+    margin-right:30px;
+  }
+}
+@media screen and (max-width:500px) {
+  .headings{
+    font-size: 30px;
+    margin-left:20px;
+    color:rgb(5,12,89); 
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "Arvo";
+  }
+  .about-content{
+    color:black;
+    margin-left:30px;
+    text-align: justify;
+    width: 80%;
+    margin-right:11px;
+    font-size: 15px;
+  }
 }

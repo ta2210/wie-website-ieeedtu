@@ -30,9 +30,6 @@ function App() {
     <div onClick={(e)=>{click2(e)}} className='abso'>
       <div>
         <Backbox2 />
-
-
-<Timeline/>
 {/* 
 
 hello
@@ -44,24 +41,26 @@ about wie T
 about IEEEdtu T
 wie Events T
 
-// tues night
-council // image
+council // Done
 timeline //DONE
 contact us // Done
 footer // Done
 */}
 
 
+        {/* <Eventsofwomenintech/> */}
         {/* <Navbar /> */}
         {/* <Hero /> */}
         {/* <AboutUs/>
         <IEEEdtu/>
         <Events/> */}
         {/* vivek vihaan dsc */}
-        {/* <Council/> */}
+        <AboutUs/>
+        <IEEEdtu/>
+        <Council/>
         {/* <Gallary/> */}
+        <Timeline/>
         <Contact/>
-        {/* <Eventsofwomenintech/> */}
         <Footer/>
       </div>
     </div>
