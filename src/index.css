@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* .box2 div:nth-child(1) {
     position: relative;
     width: 60px;
@@ -10,20 +13,15 @@
     /* display:none; */
     /* border: 6px solid rgb(245, 128, 226); */
 /* }  */
-.box2{
+/* .box2{
     width: 60px;
     height: 60px;
     left:var(--ik);
-    /* left:100px; */
-    /* display: none; */
     top:100px;
     border-radius:100%;
     background-color: transparent;
     position: absolute;
     border:5px dotted rgb(242, 94, 255);
-    /* position: fixed; */
-    /* position: sticky; */
-    /* display: block; */
     animation: animate23 1s linear normal forwards;
 }
 @keyframes animate23 {
@@ -42,5 +40,8 @@
     height:100%;
     width:100%;
     position: absolute;
-    /* background-color: pink; */
-}
+} */
+::-webkit-scrollbar {
+    /* width: 10px; */
+    display: none;
+  }

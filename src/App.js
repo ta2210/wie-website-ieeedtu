@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {Navbar, Hero, AboutUs, IEEEdtu, Events, Contact, Council, Footer} from "./helper/Exporter"
+import {Timeline, Navbar, Hero, AboutUs, IEEEdtu, Events, Contact, Council, Footer} from "./helper/Exporter"
 function App() {
   const [crr, ccrr] = React.useState([]);
   const [crr2, ccrr2] = React.useState([]);
@@ -32,7 +32,9 @@ function App() {
         <Backbox2 />
 
 
+<Timeline/>
 {/* 
+
 hello
 
 Navbar R
@@ -44,23 +46,23 @@ wie Events T
 
 // tues night
 council // image
-timeline
-contact us
-footer 
+timeline //DONE
+contact us // Done
+footer // Done
 */}
 
 
-        <Navbar />
-        <Hero />
+        {/* <Navbar /> */}
+        {/* <Hero /> */}
         {/* <AboutUs/>
         <IEEEdtu/>
         <Events/> */}
         {/* vivek vihaan dsc */}
         {/* <Council/> */}
         {/* <Gallary/> */}
-        {/* <Contact/> */}
+        <Contact/>
         {/* <Eventsofwomenintech/> */}
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </div>
     </>

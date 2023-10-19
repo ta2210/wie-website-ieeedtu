@@ -1,7 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 .p{
-  color:rgb(5,12,89);
+  color:rgb(5,12,89); 
   color:rgb(253,246,249);
   color:rgb(110,43,127);
 }
@@ -72,11 +75,11 @@ body{
     /* rgb(84, 0, 87) */
     /* rgb(53, 0, 55) */
   );
-  background: linear-gradient(to bottom right, 
+  /* background: linear-gradient(to bottom right, 
     rgb(var(--rc1),var(--gc1),var(--bc1)),
     rgb(var(--rc2),var(--gc2),var(--bc2)),
     rgb(var(--rc3),var(--gc3),var(--bc3))
-  );
+  ); */
 
   /* background: linear-gradient(to bottom right, rgb(54, 6, 123),rgb(68, 8, 65),rgb(76, 11, 61)); */
 }
