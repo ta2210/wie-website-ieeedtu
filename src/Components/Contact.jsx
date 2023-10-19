@@ -6,7 +6,7 @@ const Contact = () => {
       {/* <section className='con-class2b'>
 
     </section> */}
-      <section className="form con-class2b">
+      <section id="contact" className="form con-class2b">
         <br /><br />
         <div className="grid-container_5">
           <div className="grid-item_5 con-class3">

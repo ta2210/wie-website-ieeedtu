@@ -21,6 +21,10 @@
             "link":"#council"
         },
         {
+            "name":"Timeline",
+            "link":"#timeline"
+        },
+        {
             "name":"Contact",
             "link":"#contact"
         }
